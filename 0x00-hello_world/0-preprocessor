@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall main.c -o opt -lm  
+gcc -E $CFILE -o c 
