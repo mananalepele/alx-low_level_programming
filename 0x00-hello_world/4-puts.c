@@ -1,10 +1,9 @@
 #include <stdio.h>
-/*
- * main - prints exactly programming is like building a multilingual puzzle
+/**
+ * main - Prints "Programming is like building a multilingual puzzle
  *
- * return - Always zero
+ * Return: Always zero
  */
-
 int main(void)
 
 {
