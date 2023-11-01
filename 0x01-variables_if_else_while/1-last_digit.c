@@ -26,7 +26,7 @@ else if (n == 5)
 {
 printf("%s %d %s %d and is 0\n", string1, n, string2, x);
 }
-else if (n != 0 && n < 6)
+else if (n < 6 && n != 0)
 {
 printf("%s %d %s %d and is less than 6 and not 0\n", string1, n, string2, x);
 }
