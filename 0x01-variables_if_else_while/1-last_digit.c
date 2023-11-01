@@ -11,23 +11,24 @@
 int main(void)
 {
 char string1[] = "Last digit of";
-int n;
+int n, x;
 char string2[] = "is";
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+x = n % 10;
 
 if (n > 5)
 {
-printf("%s %d %s and is greater than 5\n", string1, n, string2);
+printf("%s %d %s %d and is greater than 5\n", string1, n, string2, x);
 }
 else if (n == 5)
 {
-printf("%s %d %s and is 0\n", string1, n, string2);
+printf("%s %d %s %d and is 0\n", string1, n, string2, x);
 }
 else if (n != 0 && n < 6)
 {
-printf("%s %d %s and is less than 6 and not 0\n", string1, n, string2);
+printf("%s %d %s %d and is less than 6 and not 0\n", string1, n, string2, x);
 }
 return (0);
 }
