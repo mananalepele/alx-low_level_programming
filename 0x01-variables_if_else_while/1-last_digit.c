@@ -22,7 +22,7 @@ if (n > 5)
 {
 printf("%s %d %s %d and is greater than 5\n", string1, n, string2, x);
 }
-else if (n <= 5)
+else if (n == 5 && n == 0)
 {
 printf("%s %d %s %d and is 0\n", string1, n, string2, x);
 }
