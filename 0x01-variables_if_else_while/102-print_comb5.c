@@ -9,32 +9,32 @@
 
 int main(void)
 {
-int n;
-int m;
-int n1;
-int m1;
+int num1;
+int num2;
+int num3;
+int num4;
 
-for (n = 0; n < 10; n++)
+for (num1 = 0; num1 < 10; num1++)
 {
-for (m = n + 1; m < 10; m++)
+for (num2 = num1 + 1; num2 < 10; num2++)
 {
-putchar('0' + n);
-putchar('0' + m);
+putchar('0' + num1);
+putchar('0' + num2);
 
-if (n != 8 || m != 9)
+if (num1 != 9 || num2 != 8)
 {
 putchar(' ');
-for (n1 = 0; n1 < 10; n1++)
+}
+for (num3 = 0; num3 < 10; num3++)
 {
-for (m1 = n1 + 1; m1 < 10; m1++)
+for (num4 = num3 + 1; num4 < 10; num4++)
 {
-putchar('0' + n1);
-putchar('0' + m1);
-if (n1 != 8 || m1 != 9)
+putchar('0' + num3);
+putchar('0' + num4);
+if (num3 != 9 || num4 != 9)
 {
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
