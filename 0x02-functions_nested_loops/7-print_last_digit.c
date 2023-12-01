@@ -2,20 +2,24 @@
 
 /**
  * print_last_digit - prints the last digit of a number
- * @x: The number
+ * @a: The number to be treated
  *
- * Return: Always 0
+ * Return: last_digit
  */
 
-int print_last_digit(int x)
+int print_last_digit(int a)
+
 {
-int y;
-y = x % 10;
-if (x < 0)
+
+int last_digit;
+last_digit = a % 10;
+
+if (last_digit < 0)
 {
-y = y * -1;
+last_digit = last_digit * -1;
 }
-_putchar(y + '0');
-return (0);
+_putchar(last_digit + '0');
+return (last_digit);
+
 }
 
