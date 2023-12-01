@@ -20,7 +20,7 @@ _putchar((hrs % 10) + '0');
 _putchar(':');
 _putchar((min / 10) + '0');
 _putchar((min % 10) + '0');
-if (min != 59)
+if (hrs > 00 || min != 59)
 {
 _putchar('\n');
 }
